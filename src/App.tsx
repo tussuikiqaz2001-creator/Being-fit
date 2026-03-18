@@ -271,7 +271,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="text-xs font-black uppercase tracking-widest text-zinc-600 mb-1">Call Us</p>
-                  <p className="text-xl font-bold">+91 98765 43210</p>
+                  <p className="text-xl font-bold">+91 7011815251</p>
                 </div>
               </div>
               <div className="flex items-center gap-6">
@@ -280,7 +280,7 @@ export default function App() {
                 </div>
                 <div>
                   <p className="text-xs font-black uppercase tracking-widest text-zinc-600 mb-1">Hours</p>
-                  <p className="text-xl font-bold">5:00 AM - 12:00 PM & 4:00 PM - 10:30 PM</p>
+                  <p className="text-xl font-bold">5:00 AM - 12:00 PM  &  4:00 PM - 10:30 PM</p>
                 </div>
               </div>
             </div>
