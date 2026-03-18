@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-brand: #ea580c;
+  --color-brand-dark: #c2410c;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased selection:bg-brand selection:text-white;
+  }
+}
+
+.glass-nav {
+  @apply bg-zinc-950/90 backdrop-blur-xl border-b border-white/10;
+}
+
+.section-padding {
+  @apply py-20 md:py-32 px-6;
+}
+
+.btn-primary {
+  @apply bg-brand hover:bg-brand-dark text-white font-bold py-4 px-10 rounded-lg transition-all duration-300 transform active:scale-95 shadow-xl shadow-brand/20 uppercase tracking-widest text-sm;
+}
+
+.btn-outline {
+  @apply border-2 border-white/20 hover:border-brand hover:text-brand text-white font-bold py-4 px-10 rounded-lg transition-all duration-300 uppercase tracking-widest text-sm;
+}
+
+.card-gym {
+  @apply bg-zinc-900/50 border border-white/5 p-8 rounded-2xl transition-all duration-300 hover:border-brand/40 hover:bg-zinc-900;
+}
+
+.heading-lg {
+  @apply text-5xl md:text-7xl lg:text-8xl font-display font-black uppercase leading-[0.9] tracking-tighter;
+}
+
+.heading-md {
+  @apply text-4xl md:text-5xl font-display font-black uppercase tracking-tight mb-6;
+}

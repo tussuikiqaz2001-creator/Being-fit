@@ -1,0 +1,5 @@
+{
+  "name": "Being Fit Gym",
+  "description": "Premium unisex gym in Chhatarpur, New Delhi featuring modern equipment, professional trainers, and specialized CrossFit zones.",
+  "requestFramePermissions": ["geolocation"]
+}
